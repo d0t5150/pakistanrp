@@ -215,7 +215,7 @@ public OnPlayerClickPlayer(playerid, clickedplayerid, source)
 	return 1;
 }
 
-DetectPaki(playerid)
+Function::DetectPaki(playerid)
 {
 	SendClientMessage(playerid, "Yes ,This Player Paki!");
 	return 1;
