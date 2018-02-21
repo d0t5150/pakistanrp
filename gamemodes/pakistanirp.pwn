@@ -211,5 +211,12 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 
 public OnPlayerClickPlayer(playerid, clickedplayerid, source)
 {
+	DetectPaki(clickedplayerid);
+	return 1;
+}
+
+DetectPaki(playerid)
+{
+	SendClientMessage(playerid, "Yes ,This Player Paki!");
 	return 1;
 }
