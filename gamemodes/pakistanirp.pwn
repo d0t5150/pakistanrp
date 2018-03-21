@@ -73,9 +73,9 @@ public OnPlayerText(playerid, text[])
 
 public OnPlayerCommandText(playerid, cmdtext[])
 {
-	if (strcmp("/mycommand", cmdtext, true, 10) == 0)
+	if (strcmp("/help", cmdtext, true, 5) == 0)
 	{
-		// Do something here
+		SendClientMessage(playerid, 0xFFFFFF, "Welcome To Pakistani Roleplay, This Is Unique Roleplay Server, Please Use /Cmds For Our Commands!!");
 		return 1;
 	}
 	return 0;
